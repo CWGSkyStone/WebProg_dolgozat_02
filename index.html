@@ -1,17 +1,39 @@
+<!--
+/*
+* File: index.html
+* Author: Szabó József
+* Copyright: 2026, Szabó József
+* Group: Szoft I/N
+* Date: 2026-04-30
+* Github: https://github.com/CWGSkyStone/
+* Licenc: MIT
+*/
+-->
+
 <!DOCTYPE html>
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sip</title>
+    <title>Menü</title>
 </head>
 <body>
 
   <div class="container">
-    <h1>Sip</h1>
-    <p>
-      Sip generated project
-    </p>
+
+    <h1>Étlap</h1>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Név</th>
+            <th>Kategória</th>
+            <th>Ár</th>
+            <th>Vegetáriánus</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      <button id="aboutButton" class="btn btn-primary mt-3">Névjegy</button>
   </div>
     
     <script type="module" src="src/app.js"></script>
